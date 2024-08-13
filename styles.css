@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.jumbotron .display-4 {
+    font-weight: 700;
+}
+
+.jumbotron .lead {
+    font-size: 1.5rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    .jumbotron {
+        height: 350px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 2rem;
+    }
+
+    .jumbotron .lead {
+        font-size: 1.25rem;
+    }
+}
